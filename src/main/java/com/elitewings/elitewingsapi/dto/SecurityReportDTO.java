@@ -17,8 +17,6 @@ public class SecurityReportDTO {
     @Size(min = 5, max = 500, message = "La descripción debe tener entre 5 y 500 caracteres")
     private String description;
 
-    // Getters y Setters
-
     public UUID getFlightId() {
         return flightId;
     }

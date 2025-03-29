@@ -22,8 +22,6 @@ public class SecurityReport {
 
     private boolean isResolved = false;
 
-    // Getters y Setters
-
     public UUID getId() {
         return id;
     }
